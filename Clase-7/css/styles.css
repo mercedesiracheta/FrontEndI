@@ -1,0 +1,31 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#header {
+    text-align: center;
+}
+
+h1 {
+    background-color: #C4C4C4;
+    color: #005677;
+}
+
+h3 {
+    background-color: #C4C4C4;
+    color:#005677;
+}
+
+.bold-italic {
+    font-style: italic;
+    font-weight: bold;
+}
+
+#footer {
+    background-color: #005677;
+    text-align: center;
+}
+
+.footer {
+    color: white;
+}

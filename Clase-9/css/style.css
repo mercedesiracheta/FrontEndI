@@ -1,0 +1,49 @@
+
+#primera-barra {
+    background-color: #222222;
+    color: #F3F3F3;
+}
+
+#idioma 
+#moneda {
+    color: #F3F3F3;
+    background-color: #222222;
+    text-align: right;
+}
+
+#portada {
+    background-color: #F0A83E;
+    color: #ffffff;
+}
+
+#menu-superior {
+    text-align: right;
+}
+
+#logo-entero {
+    text-align: left;
+}
+
+#banner {
+    background-image: url(../img/imagen_banner.png);
+    height: 500px;
+    background-size: cover;
+}
+
+h2 {
+    text-align: center;
+}
+
+#suscripcion {
+    background-color: #F0A83E;
+}
+
+#contacto {
+    background-color: #3C2313;
+}
+
+#pie {
+    background-color: #222222;
+    color: #ffffff; 
+    text-align: center;
+}
