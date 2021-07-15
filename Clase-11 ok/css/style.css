@@ -1,0 +1,152 @@
+/* General */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1024px;
+    font-family: Roboto,'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Header*/
+
+header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    position: absolute;
+    width: 1024px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header>nav {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+/* Main */
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+/* Delivery */
+
+.delivery {
+    position: absolute;
+    width: 490px;
+    height: 350px;
+    left: 19px;
+    top: 135px;
+    background: url(/img/delivery.jpg);
+    border-radius: 5px;
+}
+
+.delivery>p {
+    position: absolute;
+    width: 350.64px;
+    height: 28px;
+    left: 38.98px;
+    top: 155px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FC200C;
+}
+
+p>span {
+    color: #FFFFFF;
+}
+
+/* Podio */
+
+.podio {
+    position: absolute;
+    width: 491px;
+    height: 350px;
+    left: 514px;
+    top: 135px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.podio>p {
+    position: absolute;
+    width: 171px;
+    height: 28px;
+    left: 125px;
+    top: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FC200C;
+}
+
+.podio>span {
+    position: absolute;
+    width: 110.44px;
+    height: 23px;
+    left: 283px;
+    top: 100px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #222222;
+}
+
+.podio>ol {
+    position: absolute;
+    width: 1150px;
+    height: 23px;
+    left: 75px;
+    top: 100px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #222222;
+}
+
+#pizzaFalling {
+    position: absolute;
+    width: 92px;
+    height: 129px;
+    left: 300px;
+    top: 200px;
+    background: url(/img/PizzaFalling.jpg);
+    border-radius: 5px;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 1024px;
+    height: 100px;
+    bottom: 2px;
+    background: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+footer>nav {
+    display: flex;
+    flex-flow: row wrap;
+}
